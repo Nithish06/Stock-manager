@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Manager</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main class="main">
+      <h1>Stock Profit or Loss Calculator</h1>
+      <label for="initial-price"
+        >Initial Price :
+        <input
+          id="initial-price"
+          type="number"
+          placeholder="Enter Initial Price"
+        />
+      </label>
+
+      <label for="numberof-stocks"
+        >Number of Stocks :
+        <input
+          id="numberof-stocks"
+          type="number"
+          placeholder="Enter the number of stocks"
+        />
+      </label>
+
+      <label for="current-price"
+        >Current Price :
+        <input
+          id="current-price"
+          type="number"
+          placeholder="Enter current Price"
+        />
+      </label>
+
+      <button id="output">Calculate</button>
+      <div id="output-div"></div>
+    </main>
+  </body>
+  <script src="app.js"></script>
+</html>
